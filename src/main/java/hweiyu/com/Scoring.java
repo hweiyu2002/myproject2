@@ -2,9 +2,12 @@ package hweiyu.com;
 
 public class Scoring {
     public static void main(String[] args) {
-        Student jack = new Student();
-        jack.name = "Jack";
-        jack.english = 80;
-        jack.math = 70;
+        Student jack = new Student("Jack",60,78);
+        Student hank = new Student("Hank",60,70);
+        GraduateStudent jane = new GraduateStudent("Jane",40,66,88);
+        jack.print();
+        hank.print();
+        jane.print();
     }
 }
+
