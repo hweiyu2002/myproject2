@@ -10,9 +10,9 @@ package hweiyu.com;
 public class SalesTester {
     public static void main(String[] args) {
         Customer c1 = new Customer("0001",1200);
-        Customer c2 = new Customer("0002",1000);
-        SilverCustomer c3 = new SilverCustomer("0003",1100);
-        GoldenCustomer c4 = new GoldenCustomer("0004",1300);
+        Customer c2 = new Customer("0002",1234);
+        SilverCustomer c3 = new SilverCustomer("0003",2000);
+        GoldenCustomer c4 = new GoldenCustomer("0004",1000);
         c1.print();
         c2.print();
         c3.print();
