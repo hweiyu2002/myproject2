@@ -1,6 +1,8 @@
-package hweiyu.com;
+package hweiyu.com.sales;
 
-public class SilverCustomer extends Customer{
+import hweiyu.com.sales.Customer;
+
+public class SilverCustomer extends Customer {
     public SilverCustomer(String id, int amount) {
         super(id, amount);
 

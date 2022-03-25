@@ -1,4 +1,4 @@
-package hweiyu.com;
+package hweiyu.com.sales;
 
 //一般客戶 - 滿千送百
 //銀級客戶 - 滿千送百,再送百元還禮金

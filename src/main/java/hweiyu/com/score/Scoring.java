@@ -1,4 +1,4 @@
-package hweiyu.com;
+package hweiyu.com.score;
 
 public class Scoring {
     public static void main(String[] args) {

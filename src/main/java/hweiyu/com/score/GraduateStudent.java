@@ -1,4 +1,4 @@
-package hweiyu.com;
+package hweiyu.com.score;
 
 public class GraduateStudent extends Student {
     int thesis;

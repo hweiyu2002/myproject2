@@ -1,4 +1,4 @@
-package hweiyu.com;
+package hweiyu.com.sales;
 
 public class Customer {
     String id ;

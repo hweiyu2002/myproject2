@@ -1,4 +1,6 @@
-package hweiyu.com;
+package hweiyu.com.sales;
+
+import hweiyu.com.sales.Customer;
 
 public class GoldenCustomer extends Customer {
     public GoldenCustomer(String id, int amount) {
