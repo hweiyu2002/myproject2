@@ -5,12 +5,11 @@ import java.util.Scanner;
 public class Tester {
     public static void main(String[] args) {
         //Constructor, constant value
-        Ticket ticket = new Ticket(
-                Ticket.TAIPEI_STATION
-                Ticket.KAOHSIUNG_STATION);
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Your start station?(1:Taipei, 2:Taichung, 3:Kaohsiung)");
         int startStation = Integer.parseInt(scanner.next());
+        Station start = null;
         switch (choice) {
             case 1:
                 destination = Station.TAIPEI_STATION;
@@ -36,6 +35,17 @@ public class Tester {
                 destination = Station.KAOHSIUNG_STATION;
                 break;
         }
-        System.out.println("Which?");
+        System.out.println("Which kind of ticket? 1)Normal Ticket 2)Student ticket 3)Elder ticket");
+        choice = Integer.parseInt(Scanner.next());
+        Ticket ticket = null;
+        switch(choice){
+            case 1:
+                ticket = new Ticket(start,destination);
+                break;
+            case 2:
+                ticket = new StudentTicket(start,destination);
+                break;
+        }
+        ticket.print();
     }
 }

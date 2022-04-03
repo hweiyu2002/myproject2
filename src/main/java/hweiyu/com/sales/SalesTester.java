@@ -11,9 +11,12 @@ package hweiyu.com.sales;
 //0003 2000 1800(200)銀級客戶
 
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class SalesTester {
     public static void main(String[] args) {
-        List <Customer>customers = new ArrayList<>();
+        List<Customer> customers = new ArrayList<>();
         Customer c1 = new Customer("0001",1200);
         Customer c2 = new Customer("0002",1234);
         SilverCustomer c3 = new SilverCustomer("0003",2000);
