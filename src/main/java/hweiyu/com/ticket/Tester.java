@@ -8,22 +8,22 @@ public class Tester {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Your start station?(1:Taipei, 2:Taichung, 3:Kaohsiung)");
-        int startStation = Integer.parseInt(scanner.next());
+        int choice = Integer.parseInt(scanner.next());
         Station start = null;
         switch (choice) {
             case 1:
-                destination = Station.TAIPEI_STATION;
+                start = Station.TAIPEI_STATION;
                 break;
             case 2:
-                destination = Station.TAICHUNG_STATION;
+                start = Station.TAICHUNG_STATION;
                 break;
             case 3:
-                destination = Station.KAOHSIUNG_STATION;
+                start = Station.KAOHSIUNG_STATION;
                 break;
         }
         System.out.println("Your destination station? (1:Taipei, 2:Taichung, 3:Kaohsiung)");
         choice = Integer.parseInt(scanner.next());
-        station destination = null;
+        Station destination = null;
         switch (choice) {
             case 1:
                 destination = Station.TAIPEI_STATION;
@@ -36,7 +36,7 @@ public class Tester {
                 break;
         }
         System.out.println("Which kind of ticket? 1)Normal Ticket 2)Student ticket 3)Elder ticket");
-        choice = Integer.parseInt(Scanner.next());
+        choice = Integer.parseInt(scanner.next());
         Ticket ticket = null;
         switch(choice){
             case 1:
