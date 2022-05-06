@@ -1,6 +1,6 @@
 package hweiyu.com.score;
 
-public class Student {
+public class Student implements Printable{
     String name;
     int english;
     int math;
