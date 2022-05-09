@@ -9,8 +9,8 @@ public class GraduateStudent extends Student {
     }
     public void print(){
         System.out.print(name+"\t"+english+"\t"+
-                math + "\t" + average() );
-        if (average() < 60){System.out.print("*");    }
+                math + "\t" + getAverage() );
+        if (getAverage() < 60){System.out.print("*");    }
         System.out.println("\t" + thesis);
     }
 

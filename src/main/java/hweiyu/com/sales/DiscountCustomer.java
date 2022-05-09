@@ -6,4 +6,9 @@ public class DiscountCustomer extends Customer{
         off = 0.1f;
 
     }
+    @Override
+    public float backMoney(){
+        return amount*off;
+    }
+
 }
