@@ -8,9 +8,9 @@ public class GoldenCustomer extends Customer {
         off = 0.2f;
     }
 
-    public void print() {
+    /*public void print() {
         System.out.println(id + "\t" + amount + "\t" +
                 (amount - backMoney()) +
                 "(" + backMoney() + ")");
-    }
+    }*/
 }
