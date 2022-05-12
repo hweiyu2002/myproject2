@@ -12,8 +12,9 @@ public class Scoring {
         students.add(jack);
         students.add(hank);
         students.add(jane);
-        for (int i = 0; i < students.size(); i++) {
-            Student stu = students.get(i);
+        //for (int i = 0; i < students.size(); i++) {
+        //    Student stu = students.get(i);
+            for(Student stu : students){
             stu.print();
         }
     }

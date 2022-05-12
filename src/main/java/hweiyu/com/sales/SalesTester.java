@@ -24,9 +24,9 @@ public class SalesTester {
         customers.add(new GoldenCustomer("0004", 5000));
         customers.add(new DiscountCustomer("0005", 900));
 
-        for (int i = 0; i < 5; i++) {
-  //          customers.get(i).print();
-        }
+        /*for (int i = 0; i < 5; i++) {
+            customers.get(i).print();
+        }*/
         for (Customer c: customers){
             c.print();
         }
@@ -35,9 +35,8 @@ public class SalesTester {
         Customer c2 = new Customer("0002",1234);
         SilverCustomer c3 = new SilverCustomer("0003",2000);
         GoldenCustomer c4 = new GoldenCustomer("0004",1000);
-        DiscountCustomer c5 = new DiscountCustomer("0005",900);*/
+        DiscountCustomer c5 = new DiscountCustomer("0005",900);
 
-        /*
         c1.print();
         c2.print();
         c3.print();

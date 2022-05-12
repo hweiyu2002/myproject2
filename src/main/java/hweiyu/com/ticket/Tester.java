@@ -2,6 +2,12 @@ package hweiyu.com.ticket;
 
 import java.util.Scanner;
 
+/* 台北    台中    高雄
+   100     200    400
+       500     600
+   <=======1100======>
+ */
+
 public class Tester {
     public static void main(String[] args) {
         //Constructor, constant value
