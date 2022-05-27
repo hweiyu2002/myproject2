@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 public class MyWin {
     public static void main(String[] args) {
         //swing, SWT, JavaFX
-        //eXtension
+        //extension
         JFrame frame = new JFrame();
         frame.setSize(600,400);
         frame.setLocation(300,200);
