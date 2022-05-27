@@ -5,10 +5,11 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class GuessFrame  extends JFrame {
+public class GuessFrame extends JFrame {
     //Fields
     JButton button = new JButton("Hi");
     JLabel label = new JLabel("Zzzz...");
+    JTextField number = new JTextField(8);
     //Constructors
     public GuessFrame(){
         super();
@@ -18,16 +19,19 @@ public class GuessFrame  extends JFrame {
         button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                //System.out.println("Hello!");
-                label.setText("Hello!");
+                int num = Integer.parseInt(number.getText());
+                System.out.println(num);
+               // label.setText("Hello!");
 
             }
         });
         setLayout(new FlowLayout());
+        add(number);
         add(button);
         add(label);
         setVisible(true);
     }
+
 
 
 
