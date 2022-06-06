@@ -8,8 +8,8 @@ import java.util.Random;
 
 public class GuessFrame extends JFrame {
     //Fields
-    JButton button = new JButton("Hi");
-    JLabel label = new JLabel("Zzzz...");
+    JButton button = new JButton("ok");
+    JLabel label = new JLabel("Guess 1 ~ 10");
     JTextField number = new JTextField(8);
     int secret = new Random().nextInt(10)+1;
     //Constructors
